@@ -1,0 +1,11 @@
+{
+    "mattermost_host": "http://192.168.1.105",
+    "mattermost_port": "8065",
+    "mattermost_token": "a5569rq7c38obekjh9nx54a1hr",
+    "team_name": "zalupa",
+    "webhook_host": "http://192.168.1.105",
+    "webhook_self_port": "8579",
+    "webhook_external_port": "8579",
+    "confluence_url": "https://адрес.базы.знаний",
+    "confluence_token": "токен_бота_confluence"
+}
