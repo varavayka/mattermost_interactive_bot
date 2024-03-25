@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 mmpy-bot = "*"
+flask = "*"
+requests = "*"
 
 [dev-packages]
 

@@ -6,9 +6,9 @@
         "actions": [
           {
             "id": "message",
-            "name": "Ephemeral Message",
+            "name": "Инициировать событие",
             "integration": {
-              "url": "http://127.0.0.1:7357",
+              "url": "http://10.11.5.101:8000/start_callback",
               "context": {
                 "action": "do_something_ephemeral"
               }
