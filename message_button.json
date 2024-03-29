@@ -3,6 +3,9 @@
       {
         "pretext": "This is the attachment pretext.",
         "text": "This is the attachment text.",
+        "author_name": "TEST",
+        "title": "ZALUPA",
+        "footer": "Это тестовое сообщение!",
         "actions": [
           {
             "id": "message",
@@ -22,8 +25,31 @@
                 "action": "do_something_update"
               }
             }
+          },
+          {
+            "id": "update",
+            "name": "Update",
+            "integration": {
+              "url": "http://127.0.0.1:7357",
+              "context": {
+                "action": "do_something_update"
+              }
+            }
+          },
+          {
+            "id": "update",
+            "name": "Update",
+            "integration": {
+              "url": "http://127.0.0.1:7357",
+              "context": {
+                "action": "do_something_update"
+              }
+            }
           }
         ]
       }
+
     ]
+    
+
   }

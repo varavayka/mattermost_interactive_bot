@@ -8,7 +8,7 @@ with open('./message_button.json', 'r') as msg_btn:
 class MyPlugin(Plugin):
     @listen_to('start')
     
-    async def wakeup(self, message:Message):
+    async def start_message(self, message:Message):
         self.driver.create_post('g8i1xzw1yf8obfbzpw9nbudssh','123',props=msg)
 
 

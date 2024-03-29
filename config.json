@@ -1,9 +1,22 @@
 {
+    
+
     "MATTERMOST_URL": "http://10.11.4.230",
     "MATTERMOST_PORT": 8065,
     "MATTERMOST_API_PATH": "/api/v4",
     "BOT_TOKEN": "44hpfosgtibrdpmyie3anrewbr",
     "BOT_TEAM": "test",
-    "SCHEME": "http",
-    "SSL_VERIFY": false
+    "SSL_VERIFY":true,
+    "WEBHOOK_HOST_ENABLED":false,
+    "WEBHOOK_HOST_URL":"http://127.0.0.1",
+    "WEBHOOK_HOST_PORT":8579,
+    "DEBUG" :false,
+    "RESPOND_CHANNEL_HELP": false,
+    "LOG_FILE": null,
+    "LOG_FORMAT":"[%(asctime)s][%(name)s][%(levelname)s] %(message)s",
+    "LOG_DATE_FORMAT":"%m/%d/%Y %H:%M:%S",
+    "IGNORE_USERS":[],
+    "SCHEDULER_PERIOD":1.0
+
+
 }
