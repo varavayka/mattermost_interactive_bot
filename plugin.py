@@ -10,39 +10,3 @@ class MyPlugin(Plugin):
     
     async def wakeup(self, message:Message):
         self.driver.create_post('ix4bi7cb9bbb8d8jbg9f3snwhy','123',props=msg)
-
-
-
-
-
-
-
-# {
-#                 "attachments": [
-#                 {
-#                     "pretext": "This is the attachment pretext.",
-#                     "text": "This is the attachment text.",
-#                     "actions": [
-#                     {
-#                         "id": "message",
-#                         "name": "Ephemeral Message",
-#                         "integration": {
-#                         "url": "http://127.0.0.1:7357",
-#                         "context": {
-#                             "action": "do_something_ephemeral"
-#                         }
-#                         }
-#                     }, {
-#                         "id": "update",
-#                         "name": "Update",
-#                         "integration": {
-#                         "url": "http://127.0.0.1:7357",
-#                         "context": {
-#                             "action": "do_something_update"
-#                         }
-#                         }
-#                     }
-#                     ]
-#                 }
-#                 ]
-#             }
