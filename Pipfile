@@ -8,6 +8,7 @@ mmpy-bot = "*"
 flask = "*"
 requests = "*"
 python-dotenv = "*"
+promise = "*"
 
 [dev-packages]
 
